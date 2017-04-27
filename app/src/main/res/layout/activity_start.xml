@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.emimitu.animalguess.StartActivity"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backgroound"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:alpha="1" />
+
+
+    <Button
+        android:text="Start Game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="87dp"
+        android:id="@+id/startGameButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:drawable/editbox_background"
+        android:onClick="startGame" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:id="@+id/welcomeTextView"
+        android:text="Welcome! \n Ready for guess and learn animals?"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:lineSpacingExtra="12sp"
+        android:typeface="sans"
+        android:fontFamily="casual"
+        android:textStyle="normal|bold"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:visibility="visible"
+        android:textColor="@color/colorAccent" />
+
+
+</RelativeLayout>
